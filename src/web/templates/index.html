@@ -1,5 +1,12 @@
 {% extends "layout.html" %}
 
+{% block css %}
+/* Change the background color of all buttons in the tool */
+input[type=submit], a[role=button] {
+background-color: blue;
+}
+{% endblock %}
+
 {% block content %}
 
 <h1> Welcome to QuickStatements 3.0 </h1>
